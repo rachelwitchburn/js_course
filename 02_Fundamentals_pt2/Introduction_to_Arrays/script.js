@@ -31,13 +31,13 @@ const calcAge = function (birthYear) {
     return 2025 - birthYear;
 }
 
-const yearsFunction = [1977, 1997, 2000, 2003, 2004];
+const yearsFunction = [1977, 1997, 2000, 2004, 2003];
 
 console.log(calcAge(years));  // não funciona
 
 const age1 = calcAge(yearsFunction[0]);
 const age2 = calcAge(yearsFunction[1]);
-const age3 = calcAge(yearsFunction[2]);
+const age3 = calcAge(yearsFunction[yearsFunction.length - 1]);
 
 console.log(age1, age2, age3);
 
