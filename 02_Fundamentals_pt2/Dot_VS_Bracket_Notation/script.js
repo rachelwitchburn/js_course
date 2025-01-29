@@ -43,6 +43,9 @@ console.log(raquel);
 // "Raquel tem 3 amores, e seu maior amor é Luiz José"
 console.log(`${raquel['firstName']} tem ${raquel.lovers.length} amores e seu maior amor é ${raquel.lovers[0]}`);
 
+raquel.location = 'Brasil';
+raquel['instagram'] = '@rachelqwb';
+console.log(raquel);
 // .length é uma propriedade do array
 
 /*
