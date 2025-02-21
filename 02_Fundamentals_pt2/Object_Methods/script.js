@@ -36,6 +36,7 @@ const raquel = { // objeto: raquel | propriedades: 5 (firstName, lastName, age, 
     }
 };
 
+console.log(raquel);
 console.log(raquel.getSummary());
 console.log(raquel.summary);
 
